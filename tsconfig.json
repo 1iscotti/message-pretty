@@ -11,11 +11,16 @@
     "jsx": "react",
     "module": "ES2015",
     "declaration": true,
-    "declarationDir": "dist",                               /* Specify what module code is generated. */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "declarationDir": "dist", 
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "esModuleInterop": true, 
+    "forceConsistentCasingInFileNames": true,
     "strict": true,                                      /* Enable all strict type-checking options. */
-    "skipLibCheck": true                             /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,
   },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": ["node_modules", "dist"]
 }
