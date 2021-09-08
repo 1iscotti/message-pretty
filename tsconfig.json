@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-   "target": "es5",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+   "target": "es5",
     "lib": [
       "es6",
       "es2015",
@@ -13,10 +13,11 @@
     "declaration": true,
     "declarationDir": "dist", 
     "rootDir": "src",
+    "outDir": "./dist",
     "moduleResolution": "node",
     "esModuleInterop": true, 
     "forceConsistentCasingInFileNames": true,
-    "strict": true,                                      /* Enable all strict type-checking options. */
+    "strict": true,
     "skipLibCheck": true,
   },
   "include": [

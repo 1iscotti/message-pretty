@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-09-07 14:52:47
- * @LastEditTime: 2021-09-07 14:56:06
+ * @LastEditTime: 2021-09-08 19:47:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /message-pretty/README.md
@@ -23,7 +23,18 @@ unicode字符转义
 3. MessageViewer
 
 ```tsx
- <MessageViewer message={'{test: "123"}'}/>
+// message: string;
+/** 普通报文展示样式 */
+// style?: React.CSSProperties;
+// /** xml报文展示样式 */
+// xmlTheme?: Record<string, string| boolean>;
+// /** json报文展示样式 */
+// jsonTheme?: ITheme;
+import { MessageViewer } from 'message-pretty';
+
+return (
+  <MessageViewer message={'{"test": "123"}'}/>
+);
 ```
 
 ## License
