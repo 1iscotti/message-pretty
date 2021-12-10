@@ -10,19 +10,9 @@
 import React from 'react';
 import JSONPretty from 'react-json-pretty';
 import XMLViewer from 'react-xml-viewer';
+import { ITheme, IProps } from '../types/index';
 
-interface ITheme {
-  [key: string]: string;
-}
-interface IProps {
-  message: string;
-  /** 普通报文展示样式 */
-  style?: React.CSSProperties;
-  /** xml报文展示样式 */
-  xmlTheme?: Record<string, string| boolean>;
-  /** json报文展示样式 */
-  jsonTheme?: ITheme;
-}
+
 // 判断是否是JSON
 const isJSON = (str: string): boolean => {
   if (typeof str === 'string') {

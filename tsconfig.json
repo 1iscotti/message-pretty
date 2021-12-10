@@ -11,7 +11,7 @@
     "jsx": "react",
     "module": "ES2015",
     "declaration": true,
-    "declarationDir": "dist", 
+    "declarationDir": "dist/types",
     "rootDir": "src",
     "outDir": "./dist",
     "moduleResolution": "node",

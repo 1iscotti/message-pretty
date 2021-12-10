@@ -6,8 +6,8 @@
  * @Description: In User Settings Edit
  * @FilePath: /message-pretty/index.js
  */
-import MessageViewer from './View';
-import { formatStr, transformUnicode } from './format';
+import MessageViewer from './components/View';
+import { formatStr, transformUnicode } from './components/format';
 
 export {
   MessageViewer,
